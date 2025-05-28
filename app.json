@@ -1,0 +1,24 @@
+{
+  "name": "openmobileui",
+  "slug": "openmobileui",
+  "version": "1.0.0",
+  "scheme": "openmobileui",
+  "icon": "./assets/icon.png",
+  "ios": {
+    "bundleIdentifier": "com.anonymous.openmobileui"
+  },
+  "plugins": [
+    "expo-router",
+    "expo-sqlite",
+    "expo-secure-store",
+    "expo-notifications"
+  ],
+  "extra": {
+    "router": {
+      "origin": false
+    },
+    "eas": {
+      "projectId": "88af7038-82ef-4f62-a4a5-252728855109"
+    }
+  }
+}

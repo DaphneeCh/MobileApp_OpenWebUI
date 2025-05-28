@@ -1,0 +1,9 @@
+node_modules/
+.expo
+.vscode
+ios/
+android
+.webui_secret_key
+package-lock.json
+.idea/
+.DS_Store
